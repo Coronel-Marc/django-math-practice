@@ -1,6 +1,6 @@
-# Django Math Practice
+# Django Math Practice (WIP)
 
-Uma aplicação educacional para praticar questões matemáticas interativas, como Regra de 3, MMC/MDC, Porcentagem, Raiz, e Potenciação.
+Uma aplicação educacional para praticar questões matemáticas interativas, como Regra de 3, MMC/MDC, Porcentagem, Raiz, e Potenciação (WIP).
 
 ## Funcionalidades
 
