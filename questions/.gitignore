@@ -1,0 +1,24 @@
+# .gitignore
+*.pyc
+__pycache__/
+*.sqlite3
+*.log
+*.env
+db.sqlite3
+
+# Ambiente virtual
+venv/
+env/
+
+# Configurações locais
+*.local_settings.py
+
+# Diretórios padrão do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos do VSCode (se usar)
+.vscode/
+
+# Configurações específicas do PyCharm
+.idea/

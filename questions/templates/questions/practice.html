@@ -1,0 +1,15 @@
+<h1>Pratique: {{ category }}</h1>
+<p>{{ question }}</p>
+<form method="post">
+    {% csrf_token %}
+    {% for option in options %}
+        <label>
+            <input type="radio" name="answer" value="{{ option }}">
+            {{ option }}
+        </label><br>
+
+    {% endfor %}
+    <button type="submit">Responder</button>
+
+    
+</form>
